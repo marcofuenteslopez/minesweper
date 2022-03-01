@@ -9,7 +9,7 @@ void setMask(int field[9][9], int marks[9][9], char mask[9][9]);
 void printMask(char mask[9][9]);
 
 int main() {
-    
+    srand(time(0));
     int field[9][9] = {1,1,1,1,1,1,1,1,1,1,0};
     int marks[9][9];
     char mask[9][9];
